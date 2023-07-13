@@ -60,3 +60,28 @@ h3{
       background-color:red ;
       transition: 0.5s;
 }
+
+@media only screen and (max-width: 600px) {
+      .container{
+            width: 18em;
+      }
+      h1{
+            font-size: 20px ;
+      }
+      h2{
+            font-size: 13px;
+      }
+
+      h3{
+            font-size: 15px;
+      }
+      .colorBtn{
+            width: 9em;
+            margin-left: 4em;
+            font-size: 14px;
+            height: 15pxs;
+      }
+      #bg{
+            font-size: 9px;
+      }
+}
